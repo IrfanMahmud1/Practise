@@ -7,10 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        table,
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
         th,
         td {
-            border: 1px solid black;
+            border: 2px solid darkgray;
+
+            color: darksalmon;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        td {
+            padding-left: 5px;
         }
     </style>
 </head>
@@ -59,10 +73,48 @@
             <option value="Opera">Opera</option>
             <option value="Internet exploer">Internet exploer</option>
         </datalist>
-
-
-
-
+    </section>
+    <section>
+        <table>
+            <colgroup>
+                <col style="background-color: yellow;">
+                <col span="3" style="background-color: steelblue;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Birth date</th>
+                    <th>Treat place</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Karim</td>
+                    <td>Rahim</td>
+                    <td>Mahmud</td>
+                    <td>Salam</td>
+                </tr>
+                <tr>
+                    <td>Mirpur</td>
+                    <td>Dhanmondi</td>
+                    <td>Bonani</td>
+                    <td>Airport</td>
+                </tr>
+                <tr>
+                    <td>12-3-1998</td>
+                    <td>25-5-1998</td>
+                    <td>1-1-1998</td>
+                    <td>4-7-1998</td>
+                </tr>
+                <tr>
+                    <td>KFC</td>
+                    <td>Sultans Dine</td>
+                    <td>Shalimar</td>
+                    <td>Khanas</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
 </body>
