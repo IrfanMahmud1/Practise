@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/b6441912c0.js" crossorigin="anonymous"></script>
     <style>
         table {
             border-collapse: collapse;
@@ -26,19 +27,82 @@
         td {
             padding-left: 5px;
         }
+
+        .fa-facebook {
+            font-size: 80px;
+
+
+        }
+
+        .fa-youtube {
+            font-size: 80px;
+            color: red;
+        }
+
+        .fa-instagram-square {
+            color: lightcoral;
+        }
+
+        a {
+            text-decoration: none;
+            margin: 0px 50px;
+        }
+
+        @keyframes sliding {
+            0% {
+                background-color: red;
+                left: 0;
+                transform: scale(0.5) rotate(180deg);
+
+            }
+
+            50% {
+                background-color: royalblue;
+                border-radius: 50%;
+            }
+
+            100% {
+                background-color: yellow;
+                left: 400px;
+            }
+        }
+
+        .container div {
+            border: 1px solid palegreen;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            animation: sliding 1s ease-in-out infinite alternate-reverse;
+            animation-play-state: running;
+        }
+
+        article {
+            width: 700px;
+            height: 600px;
+            border: 2px solid sandybrown;
+            background-color: peru;
+            overflow: scroll;
+            overflow-x: hidden;
+            margin: 20px;
+        }
+
+        article>h1 {
+            text-align: center;
+            font-weight: 700;
+            border: 1px solid maroon;
+            background-color: pink;
+            font-size: 50px;
+        }
+
+        article>p {
+            background-color: gray;
+            color: white;
+            padding: 20px;
+            font-size: 22px;
+            text-align: justify;
+        }
     </style>
 </head>
-<style>
-    a {
-        width: 200px;
-        height: 300px;
-        margin-top: 200px;
-        margin-right: 30px;
-
-
-        border: 2px solid khaki;
-    }
-</style>
 
 <body>
     <section>
@@ -131,7 +195,65 @@
             <li>aside</li>
             <li>footer</li>
         </ul>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-pMarY6BdL0?autoplay=1&mute=1"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <div>
+            <h1>Facebook:<a target="_blank" href="https://www.facebook.com/"><i
+                        class="fa-brands fa-facebook"></i></a>YouTube:
+                <a target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            </h1>
+        </div>
+        <div class="super">
+            <h1>Something big</h1>
+            <p>Join us: <a target="_blank" href="https://www.instagram.com/"><i
+                        class="fa-brands fa-instagram-square"></i></a> </p>
+        </div>
+
     </section>
+    <section class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+    <section>
+        <article>
+            <h1>Full stack web developer</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde placeat adipisci nemo quisquam nihil esse
+                nulla, dolorum quasi delectus ullam modi repellat? Aspernatur quas laborum possimus nobis, dolorem quod
+                cumque temporibus quisquam laudantium neque totam dicta excepturi animi, suscipit autem incidunt
+                reprehenderit magnam? Tenetur perspiciatis exercitationem distinctio odit unde. Recusandae ea velit
+                magnam quis natus quam, maxime impedit temporibus odio. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Deleniti fuga sapiente aspernatur nisi. Deserunt, quod. Vel odit adipisci officia
+                mollitia, facere aspernatur magni delectus reprehenderit corporis illum, laboriosam iusto architecto
+                praesentium qui quasi, corrupti animi exercitationem quisquam perspiciatis? Aliquam officia nihil amet
+                delectus, animi nisi, omnis in quo, possimus perferendis fugit aspernatur id minima necessitatibus eaque
+                itaque nemo excepturi magni! Cumque placeat, ea repellendus voluptatem non quaerat nam explicabo
+                laboriosam aliquid, exercitationem est commodi nobis mollitia rerum molestiae eaque quisquam a
+                consectetur maxime! Asperiores, impedit officia. Minus quaerat odio magnam? Obcaecati ab atque, itaque
+                nisi adipisci dolor veritatis delectus dolore ipsa? Pariatur deleniti cum quidem accusantium eveniet
+                vitae unde quae tempora doloremque tenetur, dolores magni ipsam expedita, cumque consequuntur? Autem ut,
+                obcaecati explicabo quisquam sit minus eligendi! Quidem ducimus, voluptas asperiores vero assumenda
+                quibusdam. Error maxime architecto rerum maiores enim repellat animi eligendi exercitationem nam. Quas
+                quam, repudiandae esse ullam quod unde nihil qui ex reprehenderit cupiditate. Repudiandae natus, ipsum
+                placeat quibusdam vitae, dolor quas commodi veritatis non alias nihil! Earum officiis at veritatis
+                numquam temporibus qui quo adipisci et aspernatur totam dolores quod nihil quam quae, beatae id tenetur
+                maiores labore dolorum? Beatae voluptate facere dolores officiis alias nihil. Dolorum tenetur cumque
+                enim. Autem, facere asperiores minima perferendis consequuntur voluptatibus enim est consectetur
+                accusamus nobis? Harum delectus fuga consequuntur ratione obcaecati aut quos perspiciatis, atque tempore
+                maxime voluptate vero inventore mollitia, doloribus beatae accusantium neque temporibus. Similique
+                consequuntur aut porro cupiditate rerum, voluptate nam rem sunt odio, quis distinctio magnam temporibus
+                et ullam, quo totam autem nemo maiores iste quod. Nisi, consequuntur ipsa accusamus dolore suscipit
+                consectetur neque adipisci ab velit ea eaque iure fugiat illo consequatur quibusdam cumque cupiditate
+                voluptatibus aut molestias? Nam, quaerat! Reiciendis earum necessitatibus voluptas tenetur enim quisquam
+                iste, suscipit provident ullam. Debitis, quidem aut. </p>
+        </article>
+    </section>
+
 
 </body>
 
